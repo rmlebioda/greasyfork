@@ -12,7 +12,7 @@
 // @run-at       document-start
 // ==/UserScript==
 "use strict";
-console.write('Enabling custom disable automatic video downscale for twitch');
+console.log('Enabling custom disable automatic video downscale for twitch');
 
 // Try to trick the site into thinking it's never hidden
 Object.defineProperty(document, 'hidden', {value: false, writable: false});
